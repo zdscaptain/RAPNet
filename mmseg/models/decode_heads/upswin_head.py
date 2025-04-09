@@ -8,7 +8,6 @@ import torch.nn as nn
 import math
 import torch.nn.functional as F
 from torch.nn.init import trunc_normal_
-from .MADAttention import MFMSAttentionBlock
 from .Topfreq import MFMSAttentionBlockDilated
 class DWConv(nn.Module):
     def __init__(self, dim=768):
